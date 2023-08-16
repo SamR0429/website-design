@@ -1,3 +1,10 @@
+img{
+    max-width: 100%;
+    display: block;
+}
+
+
+
 .group {
     display: flex;
     line-height: 28px;
@@ -40,3 +47,32 @@
 }
 
 
+.container{
+    /*margin: 1px;*/
+
+}
+
+
+.container-for-pic{
+    margin: 0;
+    position: relative;
+}
+
+#example {
+    position: absolute;
+    padding: 5px;
+    background-color: transparent;
+    font-size: 5rem;
+    color: white;
+    /*z-index: 2;*/
+}
+
+.pic-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    /*z-index: 1;*/
+}
