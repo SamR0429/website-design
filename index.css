@@ -78,6 +78,11 @@ img{
 
 }
 
-.container-for-cards{
+.card-wrapper{
+    display: flex;
+}
 
+.card{
+    margin: 0 .5em;
+    width: calc(100% / 3);
 }
